@@ -42,7 +42,7 @@ export default function Navbar() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <span className="text-gradient">{personal.name.split(" ")[0]}</span>
+          <span className="text-gradient-cyber">{personal.name.split(" ")[0]}</span>
           <span className="text-white/60">.</span>
         </motion.a>
 
@@ -63,7 +63,7 @@ export default function Navbar() {
         <motion.a
           href={`mailto:${personal.email}`}
           className="hidden items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-5 py-2.5 text-sm font-medium text-accent lg:inline-flex"
-          whileHover={{ scale: 1.05, boxShadow: "0 0 24px rgba(212,175,55,0.25)" }}
+          whileHover={{ scale: 1.05, boxShadow: "0 0 24px rgba(0,245,212,0.25)" }}
           whileTap={{ scale: 0.95 }}
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>

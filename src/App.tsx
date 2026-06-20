@@ -3,13 +3,11 @@ import Lenis from "lenis";
 import Navbar from "./components/Navbar";
 import IntroCover from "./components/IntroCover";
 import Hero from "./components/Hero";
-import TechMarquee from "./components/TechMarquee";
 import ImageMarquee from "./components/ImageMarquee";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollProgress from "./components/ScrollProgress";
@@ -47,13 +45,11 @@ export default function App() {
       <main>
         <IntroCover />
         <Hero />
-        <TechMarquee />
         <ImageMarquee />
         <About />
         <Skills />
         <Experience />
         <Projects />
-        <Education />
         <Contact />
       </main>
       <Footer />

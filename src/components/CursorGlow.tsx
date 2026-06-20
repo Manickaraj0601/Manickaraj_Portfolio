@@ -4,8 +4,8 @@ import { useEffect } from "react";
 export default function CursorGlow() {
   const cx = useMotionValue(-200);
   const cy = useMotionValue(-200);
-  const sx = useSpring(cx, { stiffness: 80, damping: 20 });
-  const sy = useSpring(cy, { stiffness: 80, damping: 20 });
+  const sx = useSpring(cx, { stiffness: 85, damping: 22 });
+  const sy = useSpring(cy, { stiffness: 85, damping: 22 });
 
   useEffect(() => {
     const move = (e: MouseEvent) => {
@@ -23,7 +23,7 @@ export default function CursorGlow() {
         left: sx,
         top: sy,
         background:
-          "radial-gradient(circle, rgba(212,175,55,0.06) 0%, rgba(212,175,55,0.02) 40%, transparent 70%)",
+          "radial-gradient(circle, rgba(0, 245, 212, 0.07) 0%, rgba(139, 92, 246, 0.03) 50%, transparent 70%)",
       }}
       aria-hidden
     />
